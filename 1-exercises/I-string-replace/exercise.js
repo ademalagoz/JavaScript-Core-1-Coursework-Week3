@@ -13,7 +13,25 @@
 let story =
   "I like dogs. One day I went to the park and I saw 10 dogs. It was a great day.";
 
-let result = story.replace("", "");
+ let catStory = "I like cats. One night I went to the park and I saw 100000 cats. It was a brilliant night.";
+
+let result = story.replace(story, catStory);
+
+// let result =story
+// .replace("dogs","cats")
+// .replace("day","night")
+// .replace("10","100000")
+// .replace("great","brilliant")
+// .replace("dogs","cats")
+// .replace("day","night")
+
+// Instead Of 2 or more times using the same replace methods we can use regex method.
+
+// let result = story
+//   .replace(/dogs/g, "cats")
+//   .replace(/day/g, "night")
+//   .replace(10, 100000)
+//   .replace("great", "brilliant");
 
 /* EXPECTED OUTPUT */
 
