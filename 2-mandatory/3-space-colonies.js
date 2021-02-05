@@ -15,7 +15,12 @@
   
 */
 
-function colonisers() {}
+
+
+function colonisers(surnames) {
+  return surnames.filter(item => item[0] ==='A' && item.includes('family'));
+  
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

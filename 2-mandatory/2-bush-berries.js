@@ -21,7 +21,38 @@
   Let's first look at an example that will teach you how to use these methods.
 */
 
-function bushChecker() {}
+// function colorFind (color){
+//   if(color = pink){
+// return true;
+//   }
+//   else{
+//     return false;
+
+//   }
+// }
+
+
+function bushChecker(bush) {
+  if (bush.every(color => color ==="pink")){
+    return "Bush is safe to eat from"; 
+      }
+  else {
+    return "Toxic! Leave bush alone!";
+  }
+  }
+
+// const bushChecker = bush => bush.every(color => color === "pink") ? "Bush is safe to eat from" :"Toxic! Leave bush alone!"; 
+
+
+  // function bushChecker(bush) {
+  // if (bush.some(color => color !=="pink")){
+  //   return "Toxic! Leave bush alone!";
+  //     }
+  // else {
+  //   return "Bush is safe to eat from"; 
+  // }
+  // }
+  
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 
